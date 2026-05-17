@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-on-secondary-container: #00725b;
+  --color-secondary-container: #6dfad2;
+  --color-surface: #f8f9fa;
+  --color-surface-container: #edeeef;
+  --color-on-surface: #191c1d;
+  --color-on-surface-variant: #44474a;
+  --color-outline-variant: #c5c6ca;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-high: #e7e8e9;
+  
+  --radius-xxl: 24px;
+}
+
+@layer base {
+  body {
+    @apply bg-[#f8f9fa] text-[#191c1d] selection:bg-[#6dfad2];
+  }
+}
+
+.ai-glow {
+  box-shadow: 0px 8px 30px rgba(74, 144, 226, 0.1);
+}
+
+/* Custom styles for polished UI */
+.safe-p-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
+}

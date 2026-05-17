@@ -1,0 +1,6 @@
+{
+  "name": "Flo Intelligence",
+  "description": "A premium AI-powered financial companion for smart spending tracking and automated insights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
