@@ -732,19 +732,15 @@ const InsightsView = () => (
           </div>
       </section>
 
-      <section className="bg-white rounded-[24px] p-6 border border-blue-50 ai-glow relative overflow-hidden flex gap-5">
-          <div className="w-14 h-14 rounded-full bg-blue-50 flex items-center justify-center shrink-0">
-            <Sparkles className="w-7 h-7 text-blue-500 fill-blue-500" />
+      <section className="bg-white rounded-2xl p-5 border border-blue-50 ai-glow flex gap-4 items-start">
+          <div className="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center shrink-0">
+            <Sparkles className="w-5 h-5 text-blue-500 fill-blue-500" />
           </div>
-          <div className="space-y-4">
-              <div className="space-y-1">
-                  <h4 className="font-bold text-lg decoration-blue-500">AI Smart Insight</h4>
-                  <p className="text-gray-600">Your groceries spend is <span className="font-bold text-red-500">$120 higher</span> than last month. Want to set a limit?</p>
-              </div>
-              <div className="flex gap-3">
-                  <button className="bg-black text-white px-8 py-2.5 rounded-full font-bold text-sm">Set Limit</button>
-                  <button className="border border-gray-200 px-8 py-2.5 rounded-full font-bold text-sm">Dismiss</button>
-              </div>
+          <div className="space-y-1">
+              <span className="text-[10px] font-bold text-blue-500 uppercase tracking-widest">AI Insight</span>
+              <p className="text-sm text-[#191c1d] leading-relaxed">
+                Your grocery spending is <span className="font-bold">18% higher</span> than last week. Most of the increase came from weekend purchases.
+              </p>
           </div>
       </section>
     </motion.div>
